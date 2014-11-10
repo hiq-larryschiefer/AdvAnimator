@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".AdvAnimatorActivity">
+
+    <Button
+        android:id="@+id/btn_color_cycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_cycle_label" />
+    <View
+        android:id="@+id/view_color_cycle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/anim_view_height" />
+    <Button
+        android:id="@+id/btn_wash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_wash_label" />
+    <View
+        android:id="@+id/view_wash"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/anim_view_height" />
+    <ImageView
+        android:id="@+id/lt_img"
+        android:visibility="gone"
+        android:adjustViewBounds="false"
+        android:src="@drawable/hiqes_q_only"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_lt"
+        android:text="@string/lt_in_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_multi_keys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_multi_key" />
+    <View
+        android:id="@+id/view_multi_wash"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/anim_view_height" />
+</LinearLayout>

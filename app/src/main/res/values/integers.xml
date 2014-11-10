@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="appear_fade_in">500</integer>
+    <integer name="appear_rot1">250</integer>
+    <integer name="appear_rot2_start">750</integer>
+</resources>

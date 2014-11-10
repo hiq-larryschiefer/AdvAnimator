@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdvAnimator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_wash_label">Color Wash</string>
+    <string name="btn_multi_key">KeyFrame Animation</string>
+    <string name="btn_cycle_label">Color Cycle</string>
+    <string name="lt_in_out">Layout Trans. In/Out</string>
+
+</resources>
